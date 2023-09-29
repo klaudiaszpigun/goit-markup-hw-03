@@ -1,0 +1,59 @@
+:root {
+    --IRIS: #4D5AE5;
+    --OCEAN: #404BBF;
+    --NAVY-BLUE: #2E2F42;
+    --GREEN: #31D0AA;
+    --SLATE: #434455;
+    --LIGHT-SLATE: #8E8F99;
+    --CORNFLOWER: #E7E9FC;
+    --CLOUD: #F4F4FD;
+    --NAVY-BLUE-MODAL: #2E2F4266;
+    --GREY: #2E2F42B2;
+    --WHITE: #FFFFFF;
+    --DAIRY: #FCFCFC;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background-color: var(--WHITE);
+    color: var(--NAVY-BLUE);
+}
+.logo {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.top-line .web {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: var(--IRIS)
+}
+.navigation-list {
+    list-style: none;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    font-style: normal;
+    color: var(--SLATE);
+}
+.navigation-list > li {
+    color: var(--NAVY-BLUE)
+}
+[href] {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+}
+.address {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    list-style: none;
+}
