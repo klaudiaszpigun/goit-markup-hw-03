@@ -136,16 +136,18 @@ body {
 .fourth-section {
     background-color: var(--CLOUD);
 }
-.fourth-section h2 {
+.fourth-section .our-team {
     text-align: center;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    color: var(--NAVY-BLUE);
 }
-.fourth-section li {
-    list-style: none;
+.list-team {
+    background-color: var(--WHITE);
 }
+
 .footer {
     background-color: var(--NAVY-BLUE);
     color: var(--CLOUD);
