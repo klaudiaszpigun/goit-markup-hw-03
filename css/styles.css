@@ -220,3 +220,17 @@ body {
     color: var(--WHITE);
     background-color: var(--OCEAN);
 }
+
+
+
+.list-of-links {
+    background-color: var(--WHITE);
+}
+.portfolio-headings {
+    color: var(--NAVY-BLUE);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
