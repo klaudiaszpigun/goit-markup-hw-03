@@ -7,8 +7,8 @@
     --LIGHT-SLATE: #8E8F99;
     --CORNFLOWER: #E7E9FC;
     --CLOUD: #F4F4FD;
-    --NAVY-BLUE-MODAL: #2E2F4266;
-    --GREY: #2E2F42B2;
+    --NAVY-BLUE-MODAL: #2E2F42;
+    --GREY: #2E2F42;
     --WHITE: #FFFFFF;
     --DAIRY: #FCFCFC;
 }
@@ -95,18 +95,16 @@ body {
 }
 
 
-.second-section .about-us {
-    color: var(--NAVY-BLUE-MODAL);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.second-section h2 {
+    color: var(--WHITE);
 }
 
-.second-section h3 {
+.second-section .second-section-headings {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    font-weight: 500;
+    color: var(--NAVY-BLUE-MODAL);
 }
 .second-section .list-paragraph {
     color: var(--SLATE);
