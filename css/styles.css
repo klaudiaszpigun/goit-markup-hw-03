@@ -34,14 +34,14 @@ body {
     color: var(--NAVY-BLUE)
 }
 }
-.navigation-list {
+.list {
     list-style: none;
     line-height: 1.5;
     letter-spacing: 0.32px;
     font-style: normal;
     color: var(--SLATE);
 }
-.navigation-list > li {
+.list > li {
     color: var(--NAVY-BLUE)
 }
 .address {
