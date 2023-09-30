@@ -93,23 +93,30 @@ body {
 .order-service:focus {
     background-color: var(--OCEAN);
 }
-.second-section > h2 {
-    color: var(--WHITE)
+
+
+.second-section .about-us {
+    color: var(--NAVY-BLUE-MODAL);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-.second-section li {
-    list-style: none;
-}
+
 .second-section h3 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
-.second-section p {
+.second-section .list-paragraph {
     color: var(--SLATE);
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+
+
+
 .third-section > h2 {
     text-align: center;
     font-size: 36px;
