@@ -113,7 +113,7 @@ body {
     font-weight: 500;
     color: var(--NAVY-BLUE-MODAL);
 }
-.second-section .list-paragraph {
+.list-paragraph {
     color: var(--SLATE);
     font-weight: 400;
     line-height: 1.5;
@@ -122,14 +122,17 @@ body {
 
 
 
+
 .third-section > .what-are-we-doing {
     text-align: center;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: var(--NAVY-BLUE-MODAL);
 }
+
+
 
 
 
@@ -144,9 +147,20 @@ body {
     text-transform: capitalize;
     color: var(--NAVY-BLUE);
 }
+.third-section-headings {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE);
+}
 .list-team {
     background-color: var(--WHITE);
 }
+
+
+
+
 
 .footer {
     background-color: var(--NAVY-BLUE);
