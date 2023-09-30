@@ -41,13 +41,16 @@ body {
     letter-spacing: 0.02em;
     
 }
+.address .contacts {
+    color: var(--SLATE)
+}
 .list .link:hover {
     color: var(--OCEAN);
 }
 .list .link:focus {
     color: var(--OCEAN);
 }
-.address .list {
+.list {
     font-style: normal;
     color: var(--SLATE);
     list-style: none;
@@ -58,10 +61,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.32px;
     list-style: none;
-}
-.contacts {
-    color: var(--SLATE);
-
 }
 
 
