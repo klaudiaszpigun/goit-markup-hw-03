@@ -24,9 +24,11 @@ body {
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.54px;
-    text-transform: uppercase;
     text-decoration: none;
     color: var(--IRIS)
+}
+.link {
+    text-transform: uppercase;
 }
 .studio {
     color: var(--NAVY-BLUE)
