@@ -41,7 +41,7 @@ body {
     font-style: normal;
     color: var(--SLATE);
 }
-.list > li {
+.list > .list-studio {
     color: var(--NAVY-BLUE)
 }
 .address {
