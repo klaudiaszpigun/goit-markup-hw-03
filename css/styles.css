@@ -22,7 +22,7 @@ body {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.1;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
@@ -31,14 +31,14 @@ body {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.1;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     color: var(--IRIS)
 }
 .navigation-list {
     list-style: none;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     font-style: normal;
     color: var(--SLATE);
@@ -46,14 +46,82 @@ body {
 .navigation-list > li {
     color: var(--NAVY-BLUE)
 }
-[href] {
+a[href] {
     text-decoration: none;
     color: var(--NAVY-BLUE);
 }
 .address {
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.32px;
     list-style: none;
 }
+.first-section {
+    background-color: var(--NAVY-BLUE);
+}
+.first-section > h1 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1.12px;
+    color: var(--WHITE);
+}
+.order-service {
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background-color: var(--IRIS);
+    color: var(--WHITE);
+    cursor: pointer;
+
+}
+.second-section > h2 {
+    color: var(--WHITE)
+}
+.second-section li {
+    list-style: none;
+}
+.second-section h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.second-section p {
+    color: var(--SLATE);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+.third-section > h2 {
+    text-align: center;
+    font-size: 36px;
+    font-size: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.third-section li {
+    list-style: none;
+}
+.fourth-section {
+    background-color: var(--CLOUD);
+}
+.fourth-section h2 {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.fourth-section li {
+    list-style: none;
+}
+.footer {
+    width: 1440px;
+    height: 312px;
+    background-color: var(--NAVY-BLUE);
+    color: var(--CLOUD);
+}
+.footer-logo
