@@ -19,13 +19,14 @@ body {
     color: var(--SLATE);
 }
 .logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.1;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
+    
 }
 .web {
     font-family: Raleway;
