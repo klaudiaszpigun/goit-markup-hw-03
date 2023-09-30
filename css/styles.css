@@ -25,10 +25,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-decoration: none;
-    color: var(--IRIS)
+    color: var(--IRIS);
+    text-transform: uppercase;
 }
 .link {
-    text-transform: uppercase;
+    text-decoration: none;
 }
 .studio {
     color: var(--NAVY-BLUE)
@@ -42,7 +43,8 @@ body {
 .list > .list-studio {
     color: var(--NAVY-BLUE);
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
+    
 }
 .address {
     font-style: normal;
