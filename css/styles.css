@@ -30,18 +30,11 @@ body {
 }
 .link {
     text-decoration: none;
-    
 }
 .studio {
     color: var(--NAVY-BLUE)
 }
-}
-.list {
-    font-style: normal;
-    color: var(--SLATE);
-    list-style: none;
 
-}
 .list .link {
     color: var(--NAVY-BLUE);
     line-height: 1.5;
@@ -53,6 +46,11 @@ body {
 }
 .list .link:focus {
     color: var(--OCEAN);
+}
+.address .list {
+    font-style: normal;
+    color: var(--SLATE);
+    list-style: none;
 }
 .address {
     font-style: normal;
