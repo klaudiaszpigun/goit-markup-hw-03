@@ -27,7 +27,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
-.top-line .web {
+.web {
     font-family: Raleway;
     font-size: 18px;
     font-weight: 800;
@@ -48,7 +48,7 @@ body {
 }
 a[href] {
     text-decoration: none;
-    color: var(--NAVY-BLUE);
+    color: inherit;
 }
 .address {
     font-style: normal;
@@ -124,4 +124,18 @@ a[href] {
     background-color: var(--NAVY-BLUE);
     color: var(--CLOUD);
 }
-.footer-logo
+.footer-logo {
+    color: var(--CLOUD);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.footer p {
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
