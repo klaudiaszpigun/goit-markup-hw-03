@@ -40,11 +40,14 @@ body {
     font-style: normal;
     color: var(--SLATE);
 }
-.liswt > .link {
+.list > .link {
     color: var(--NAVY-BLUE);
     line-height: 1.5;
     letter-spacing: 0.02em;
     
+}
+.list > .link:hover {
+    color: var(--OCEAN);
 }
 .address {
     font-style: normal;
