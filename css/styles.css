@@ -209,9 +209,14 @@ body {
     letter-spacing: 0.64px;
     text-align: center;
     color: var(--IRIS);
-    background-color: var(--CORNFLOWER);
+    background-color: var(--CLOUD);
+    cursor: pointer;
 }
 .portfolio-buttons:hover {
+    color: var(--WHITE);
+    background-color: var(--OCEAN);
+}
+.portfolio-buttons:focus {
     color: var(--WHITE);
     background-color: var(--OCEAN);
 }
