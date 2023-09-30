@@ -16,7 +16,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     background-color: var(--WHITE);
-    color: var(--NAVY-BLUE);
+    color: var(--SLATE);
 }
 .logo {
     font-family: Raleway;
@@ -119,8 +119,6 @@ a[href] {
     list-style: none;
 }
 .footer {
-    width: 1440px;
-    height: 312px;
     background-color: var(--NAVY-BLUE);
     color: var(--CLOUD);
 }
