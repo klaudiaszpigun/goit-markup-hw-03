@@ -36,13 +36,13 @@ body {
 }
 .list {
     list-style: none;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
     font-style: normal;
     color: var(--SLATE);
 }
 .list > .list-studio {
-    color: var(--NAVY-BLUE)
+    color: var(--NAVY-BLUE);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 .address {
     font-style: normal;
