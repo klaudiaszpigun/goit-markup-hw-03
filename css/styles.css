@@ -46,9 +46,7 @@ body {
     letter-spacing: 0.02em;
     
 }
-.list > .link:hover {
-    color: var(--OCEAN);
-}
+
 .address {
     font-style: normal;
     font-weight: 400;
