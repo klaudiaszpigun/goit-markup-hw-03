@@ -30,15 +30,17 @@ body {
 }
 .link {
     text-decoration: none;
+    
 }
 .studio {
     color: var(--NAVY-BLUE)
 }
 }
 .list {
-    list-style: none;
     font-style: normal;
     color: var(--SLATE);
+    list-style: none;
+
 }
 .list .link {
     color: var(--NAVY-BLUE);
