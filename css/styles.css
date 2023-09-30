@@ -73,17 +73,25 @@ body {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.07;
     letter-spacing: 1.12px;
     color: var(--WHITE);
 }
 .order-service {
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
     background-color: var(--IRIS);
     color: var(--WHITE);
     cursor: pointer;
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.order-service:hover {
+    background-color: var(--OCEAN);
+}
+.order-service:focus {
+    background-color: var(--OCEAN);
 }
 .second-section > h2 {
     color: var(--WHITE)
