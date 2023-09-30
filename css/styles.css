@@ -167,17 +167,20 @@ body {
     color: var(--CLOUD);
 }
 .footer-logo {
-    color: var(--CLOUD);
-    font-family: Raleway;
+    color: var(--IRIS);
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
-    line-height: 1.1;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.footer p {
+.footer .footer-paragraph {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+.footer .studio {
+    color: var(--CLOUD);
 }
