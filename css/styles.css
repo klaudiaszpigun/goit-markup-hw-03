@@ -40,7 +40,7 @@ body {
     font-style: normal;
     color: var(--SLATE);
 }
-.list-studio {
+.liswt > .link {
     color: var(--NAVY-BLUE);
     line-height: 1.5;
     letter-spacing: 0.02em;
