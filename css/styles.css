@@ -47,10 +47,10 @@ body {
     
 }
 .list .link:hover {
-    color: var(--OCEAN)
+    color: var(--OCEAN);
 }
 .list .link:focus {
-    color: var(--OCEAN)
+    color: var(--OCEAN);
 }
 .address {
     font-style: normal;
