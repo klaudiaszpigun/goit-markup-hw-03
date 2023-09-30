@@ -18,6 +18,11 @@ body {
     background-color: var(--WHITE);
     color: var(--SLATE);
 }
+
+
+
+
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -95,10 +100,12 @@ body {
 }
 
 
+
+
+
 .second-section h2 {
     color: var(--WHITE);
 }
-
 .second-section .second-section-headings {
     font-size: 20px;
     line-height: 1.2;
@@ -115,16 +122,17 @@ body {
 
 
 
-.third-section > h2 {
+.third-section > .what-we-are-doing {
     text-align: center;
     font-size: 36px;
-    font-size: 1.1;
+    line-height: 1.1;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    color: var(--NAVY-BLUE-MODAL);
 }
-.third-section li {
-    list-style: none;
-}
+
+
+
 .fourth-section {
     background-color: var(--CLOUD);
 }
