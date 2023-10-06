@@ -29,6 +29,11 @@ img {
 .top-line-container {
     display: flex;
 }
+.container {
+    width: 1128px;
+    margin: 0 auto;
+    
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
