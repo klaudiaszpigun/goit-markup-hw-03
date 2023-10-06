@@ -23,7 +23,12 @@ body {
 img {
     display: block;
 }
-
+.top-line-header {
+    border-bottom: 1px solid var(--CORNFLOWER)
+}
+.top-line-container {
+    display: flex;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
