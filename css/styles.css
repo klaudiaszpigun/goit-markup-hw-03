@@ -20,7 +20,9 @@ body {
     color: var(--SLATE);
     width: 1440px;
 }
-
+img {
+    display: block;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
