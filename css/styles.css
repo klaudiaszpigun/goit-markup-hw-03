@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 :root {
     --IRIS: #4D5AE5;
     --OCEAN: #404BBF;
@@ -23,8 +26,19 @@ body {
 img {
     display: block;
 }
+
+
+
+
+
+
+
+
+
+
 .top-line-header {
-    border-bottom: 1px solid var(--CORNFLOWER)
+    border-bottom: 1px solid var(--CORNFLOWER);
+    height: 72px;
 }
 .top-line-container {
     display: flex;
@@ -41,6 +55,8 @@ img {
 .list-navigation {
     display: flex;
     gap: 40px;
+        margin-top: 24px;
+
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -52,10 +68,12 @@ img {
     color: var(--IRIS);
     text-transform: uppercase;
     margin-right: 76px;
+    margin-top: 25.5px;
 }
 .address {
     display: flex;
     margin: 0 auto;
+
 }
 .link {
     text-decoration: none;
@@ -76,6 +94,7 @@ img {
 }
 .address .contacts {
     color: var(--SLATE);
+
 }
 .list .link:hover {
     color: var(--OCEAN);
@@ -94,8 +113,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.32px;
     list-style: none;
+    margin-top: 24px;
 }
-.studio {
+.list-studio {
     padding: 24px 0;
 }
 
@@ -142,6 +162,7 @@ img {
     border: none;
     border-radius: 4px;
     margin-left: 480px;
+    margin-top: 48px;
 }
 .order-service:hover {
     background-color: var(--OCEAN);
@@ -160,9 +181,8 @@ img {
 .about-us-list {
     display: flex;
     gap: 24px;
-    
 }
-.about-us-list-item > .list-paragraph{
+.about-us-list-item {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
@@ -177,11 +197,23 @@ img {
     color: var(--NAVY-BLUE-MODAL);
     margin-bottom: 8px;
 }
-.list-paragraph {
+.about-us-list-item > .list-paragraph {
     color: var(--SLATE);
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 
