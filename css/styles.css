@@ -427,6 +427,13 @@ img {
     display: flex;
     gap: 24px;
     row-gap: 48px;
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
+.portfolio-links {
+    padding: 32px 16px;
+    border: 1px solid var(--CORNFLOWER);
+    border-top: none
 }
 .list-of-links {
     flex-basis: calc((100% - 48px) / 3);
@@ -438,6 +445,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 .portfolio-paragraphs {
     font-family: Roboto;
