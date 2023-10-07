@@ -262,6 +262,18 @@ img {
 
 .fourth-section {
     background-color: var(--CLOUD);
+    display: flex;
+}
+.fourth-section-heading {
+    color: var(--NAVY-BLUE);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
 }
 
 
