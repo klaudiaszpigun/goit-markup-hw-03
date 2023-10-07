@@ -227,17 +227,20 @@ img {
 
 
 .third-section {
-    padding: 120px;
-    
+    padding-bottom: 120px;
 }
-
-.third-section > .what-are-we-doing {
+.images-list {
+    display: flex;
+    gap: 24px;
+}
+.what-are-we-doing {
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: var(--NAVY-BLUE-MODAL);
+    margin-bottom: 72px;
 }
 
 
