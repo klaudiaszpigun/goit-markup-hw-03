@@ -33,8 +33,6 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    align-items: center;
-    justify-content: center;
 }
 .navigation {
     display: flex;
@@ -111,9 +109,10 @@ img {
 
 
 .first-section {
-    padding: 188px 0;
+    padding: 188px 472px;
     background-color: var(--NAVY-BLUE);
-    
+        align-items: center;
+            justify-content: center;
 }
 .first-section h1 {
     text-align: center;
