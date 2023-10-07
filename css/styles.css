@@ -260,37 +260,9 @@ img {
 
 
 
-
-.our-team-heading {
-    margin-bottom: 72px;
-    text-align: center;
-    color: var(--NAVY-BLUE);
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
-.list-paragraph {
-    color: var(--SLATE);
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
 .fourth-section {
     background-color: var(--CLOUD);
-    padding: 120px 0;
 }
-.list-team {
-    background-color: var(--WHITE);
-}
-
-
-
 
 
 
