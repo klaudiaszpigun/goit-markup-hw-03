@@ -225,7 +225,13 @@ img {
 
 
 
-
+.third-section-headings {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--NAVY-BLUE);
+}
 .third-section {
     padding-bottom: 120px;
 }
@@ -258,25 +264,55 @@ img {
 
 .fourth-section {
     background-color: var(--CLOUD);
+    padding: 120px 0;
+}
+.fourth-section-list {
+    display: flex;
 }
 .fourth-section .our-team {
-    text-align: center;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: var(--NAVY-BLUE);
 }
-.third-section-headings {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--NAVY-BLUE);
-}
 .list-team {
     background-color: var(--WHITE);
+    padding-bottom: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        width: 264px;
+        height: 380px;
+        text-align: center;
 }
+.third-section-headings{
+    font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        margin-top: 32px;
+}
+.list-paragraph {
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+        margin-top: 8px;
+}
+
+
+
+
+
+
+
+
 
 
 
