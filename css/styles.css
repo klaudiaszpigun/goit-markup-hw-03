@@ -328,11 +328,9 @@ img {
 
 
 .footer {
-    display: inline-block;
     background-color: var(--NAVY-BLUE);
     color: var(--CLOUD);
-    padding-top: 101.5px;
-    padding-bottom: 189.5px;
+    padding: 100px 0;
     
 }
 .footer-logo {
@@ -345,6 +343,8 @@ img {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     margin-bottom: 17.5px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-paragraph {
     font-weight: 400;
