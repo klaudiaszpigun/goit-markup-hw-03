@@ -161,12 +161,19 @@ img {
     display: flex;
     gap: 24px;
 }
+.about-us-list-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24x;
+    flex-basis: calc((100%-72px)/4);
+}
 .second-section .second-section-headings {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.4px;
     font-weight: 500;
     color: var(--NAVY-BLUE-MODAL);
+    margin-bottom: 8px;
 }
 .list-paragraph {
     color: var(--SLATE);
