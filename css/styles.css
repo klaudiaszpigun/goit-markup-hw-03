@@ -375,6 +375,20 @@ img {
 
 
 
+
+
+
+
+
+
+
+
+
+.portfolio-section {
+    margin-top: 96px;
+    margin-bottom: 120px
+}
+
 .portfolio-buttons {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
