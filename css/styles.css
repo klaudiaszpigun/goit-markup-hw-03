@@ -219,6 +219,18 @@ img {
 
 
 
+
+
+
+
+
+
+
+.third-section {
+    padding: 120px;
+    
+}
+
 .third-section > .what-are-we-doing {
     text-align: center;
     font-size: 36px;
@@ -227,6 +239,12 @@ img {
     text-transform: capitalize;
     color: var(--NAVY-BLUE-MODAL);
 }
+
+
+
+
+
+
 
 
 
