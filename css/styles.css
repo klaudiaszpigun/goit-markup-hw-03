@@ -53,7 +53,10 @@ img {
     text-transform: uppercase;
     margin-right: 76px;
 }
-
+.address {
+    display: flex;
+    margin: 0 auto;
+}
 .link {
     text-decoration: none;
 }
@@ -69,11 +72,10 @@ img {
 }
 .address-list {
     display: flex;
-    gap: 40px;
+    gap: 40px; 
 }
 .address .contacts {
-    color: var(--SLATE)
-
+    color: var(--SLATE);
 }
 
 .list .link:hover {
@@ -94,7 +96,7 @@ img {
     letter-spacing: 0.32px;
     list-style: none;
 }
-.studio {
+.studio{
     padding: 24px 0;
 }
 
