@@ -265,27 +265,33 @@ img {
 .fourth-section {
     background-color: var(--CLOUD);
     padding: 120px 0;
+    justify-content: center;
 }
 .fourth-section-list {
     display: flex;
+    align-content: center;
+    gap: 24px;
 }
-.fourth-section .our-team {
+.our-team {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: var(--NAVY-BLUE);
+    margin-bottom: 72px;
+    text-align: center;
 }
 .list-team {
     background-color: var(--WHITE);
     padding-bottom: 0px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 32px;
-        width: 264px;
-        height: 380px;
-        text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 264px;
+    height: 380px;
+    text-align: center;
+    flex-basis: calc((100% - 72px) / 4);
 }
 .third-section-headings{
     font-family: Roboto;
