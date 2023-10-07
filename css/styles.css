@@ -273,7 +273,6 @@ img {
 }
 .fourth-section-heading {
     color: var(--NAVY-BLUE);
-    text-align: center;
     font-family: Roboto;
     font-size: 36px;
     font-style: normal;
@@ -285,7 +284,6 @@ img {
 }
 .fourth-section-paragraph {
     color: var(--SLATE);
-    text-align: center;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -293,7 +291,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-
+.fourth-section-list-item {
+    flex-basis: calc((100% - 72px) / 4);
+    background: var(--WHITE);
+}
 
 
 
