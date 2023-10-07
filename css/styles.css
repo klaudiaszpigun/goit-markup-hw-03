@@ -233,6 +233,9 @@ img {
     display: flex;
     gap: 24px;
 }
+.third-section-images {
+    flex-basis: calc((100%-48px)/3);
+}
 .what-are-we-doing {
     text-align: center;
     font-size: 36px;
