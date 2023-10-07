@@ -388,7 +388,12 @@ img {
     margin-top: 96px;
     margin-bottom: 120px;
 }
-
+.portfolio-menu {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 .portfolio-buttons {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
