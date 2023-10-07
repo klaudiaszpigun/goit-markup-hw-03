@@ -38,6 +38,10 @@ img {
     display: flex;
     align-items: center;
 }
+.list-navigation {
+    display: flex;
+    gap: 40px;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -47,6 +51,7 @@ img {
     text-decoration: none;
     color: var(--IRIS);
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .link {
@@ -61,6 +66,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     
+}
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 .address .contacts {
     color: var(--SLATE)
