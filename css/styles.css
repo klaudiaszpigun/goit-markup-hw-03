@@ -160,12 +160,14 @@ img {
 .about-us-list {
     display: flex;
     gap: 24px;
+    
 }
-.about-us-list-item {
+.about-us-list-item > .list-paragraph{
     display: flex;
     flex-wrap: wrap;
-    gap: 24x;
+    gap: 24px;
     flex-basis: calc((100% - 72px) / 4);
+
 }
 .second-section .second-section-headings {
     font-size: 20px;
