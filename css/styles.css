@@ -385,8 +385,8 @@ img {
 
 
 .portfolio-section {
-    margin-top: 96px;
-    margin-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .portfolio-menu {
     display: flex;
@@ -413,17 +413,24 @@ img {
     color: var(--WHITE);
     background-color: var(--OCEAN);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    border: 1px solid transparent
 }
 .portfolio-buttons:focus {
     color: var(--WHITE);
     background-color: var(--OCEAN);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    border: 1px solid transparent
 }
 
 
-
+.portfolio-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
 .list-of-links {
-    background-color: var(--WHITE);
+    flex-basis: calc((100% - 48px) / 3);
+
 }
 .portfolio-headings {
     color: var(--NAVY-BLUE);
