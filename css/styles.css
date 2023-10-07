@@ -273,12 +273,12 @@ img {
     gap: 24px;
 }
 .our-team {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: var(--NAVY-BLUE);
-    margin-bottom: 72px;
     text-align: center;
 }
 .list-team {
