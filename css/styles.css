@@ -263,6 +263,7 @@ img {
 .fourth-section {
     background-color: var(--CLOUD);
     display: flex;
+    padding: 120px 0;
 }
 .fourth-section-heading {
     color: var(--NAVY-BLUE);
@@ -275,7 +276,17 @@ img {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
+.list-paragraph {
+    color: var(--SLATE);
+    text-align: center;
 
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
 
 
 
