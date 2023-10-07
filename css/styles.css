@@ -261,7 +261,7 @@ img {
 
 
 
-.our-team {
+.our-team-heading {
     margin-bottom: 72px;
     text-align: center;
     color: var(--NAVY-BLUE);
@@ -281,7 +281,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
-.third-section-list {
+.fourth-section-list {
     display: flex;
 }
 .fourth-section {
