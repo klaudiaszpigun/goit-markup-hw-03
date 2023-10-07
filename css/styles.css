@@ -107,13 +107,13 @@ img {
 
 
 
+
 .first-section {
     padding-top: 188px;
     padding-bottom: 188px;
     background-color: var(--NAVY-BLUE);
     align-items: center;
     justify-content: center;
-    padding-left: ;
 }
 .first-section h1 {
     text-align: center;
@@ -154,6 +154,12 @@ img {
 
 
 
+.second-section {
+    padding: 120px 0;
+}
+.visually-hidden {
+    display: none;
+}
 .second-section .second-section-headings {
     font-size: 20px;
     line-height: 1.2;
