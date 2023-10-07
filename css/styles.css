@@ -26,6 +26,9 @@ body {
 img {
     display: block;
 }
+.list {
+    list-style: none;
+}
 
 
 
