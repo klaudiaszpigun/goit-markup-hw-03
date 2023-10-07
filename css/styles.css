@@ -30,9 +30,13 @@ img {
     display: flex;
 }
 .container {
-    width: 1128px;
+    width: 1158px;
     margin: 0 auto;
-    
+    padding: 0 15px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
 }
 .logo {
     font-family: "Raleway", sans-serif;
