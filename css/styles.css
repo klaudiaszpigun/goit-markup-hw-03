@@ -426,11 +426,10 @@ img {
 .portfolio-list {
     display: flex;
     gap: 24px;
-    flex-wrap: wrap;
+    row-gap: 48px;
 }
 .list-of-links {
     flex-basis: calc((100% - 48px) / 3);
-
 }
 .portfolio-headings {
     color: var(--NAVY-BLUE);
