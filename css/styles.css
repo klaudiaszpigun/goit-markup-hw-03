@@ -262,8 +262,8 @@ img {
 
 .fourth-section {
     background-color: var(--CLOUD);
-    display: flex;
     padding: 120px 0;
+    display: flex;
 }
 .fourth-section-heading {
     color: var(--NAVY-BLUE);
@@ -286,6 +286,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+
 
 
 
