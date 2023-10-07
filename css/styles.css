@@ -104,6 +104,13 @@ img {
 
 
 
+
+
+
+
+.first-section {
+    padding: 188px 0;
+}
 .first-container {
     background-color: var(--NAVY-BLUE);
     width: 1440px;
