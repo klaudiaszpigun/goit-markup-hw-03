@@ -165,7 +165,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24x;
-    flex-basis: calc((100%-72px)/4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .second-section .second-section-headings {
     font-size: 20px;
