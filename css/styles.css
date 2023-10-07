@@ -157,8 +157,9 @@ img {
 .second-section {
     padding: 120px 0;
 }
-.visually-hidden {
-    display: none;
+.about-us-list {
+    display: flex;
+    gap: 24px;
 }
 .second-section .second-section-headings {
     font-size: 20px;
