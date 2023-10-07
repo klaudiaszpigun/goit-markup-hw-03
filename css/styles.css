@@ -77,7 +77,6 @@ img {
 .address .contacts {
     color: var(--SLATE);
 }
-
 .list .link:hover {
     color: var(--OCEAN);
 }
@@ -96,7 +95,7 @@ img {
     letter-spacing: 0.32px;
     list-style: none;
 }
-.studio{
+.studio {
     padding: 24px 0;
 }
 
@@ -109,10 +108,12 @@ img {
 
 
 .first-section {
-    padding: 188px 472px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-color: var(--NAVY-BLUE);
-        align-items: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: ;
 }
 .first-section h1 {
     text-align: center;
@@ -124,6 +125,7 @@ img {
     letter-spacing: 1.12px;
     color: var(--WHITE);
     max-width: 496px;
+    margin-left: 316px;
 }
 .order-service {
     display: block;
@@ -139,6 +141,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: 480px;
 }
 .order-service:hover {
     background-color: var(--OCEAN);
