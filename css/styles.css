@@ -328,8 +328,12 @@ img {
 
 
 .footer {
+    display: inline-block;
     background-color: var(--NAVY-BLUE);
     color: var(--CLOUD);
+    padding-top: 101.5px;
+    padding-bottom: 189.5px;
+    
 }
 .footer-logo {
     color: var(--IRIS);
@@ -340,11 +344,13 @@ img {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-bottom: 17.5px;
 }
-.footer .footer-paragraph {
+.footer-paragraph {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    max-width: 264px;
 }
 .footer .studio {
     color: var(--CLOUD);
