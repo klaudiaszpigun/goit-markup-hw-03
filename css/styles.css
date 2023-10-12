@@ -21,7 +21,6 @@ body {
     font-weight: 500;
     background-color: var(--WHITE);
     color: var(--SLATE);
-    width: 1440px;
 }
 img {
     display: block;
